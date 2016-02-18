@@ -48,22 +48,28 @@ $('#step-8').css('width', '200px').css('height', '200px');
 // STEP 9: Empty Elements
 // Remove all children and text of "#step-9"
 // Hint: you can use .empty
-
+$('#step-9').empty();
 
 // STEP 10: Delay
 // Show Alert with 1 second delay (Use "setTimeout")
 // Hint: you can use setTimeout and alert (these aren't jQuery functions!)
-
+setTimeout(function() {
+  alert("Delay works!"); }, 1000);
 
 // STEP 11: Count
 // Show the number of children in an alert
 // Hint: you can use .children, .length and alert or you could use .find, .size and alert. the alert should show 5
-
+setTimeout(function() {
+  alert($("#step-11").children('.child').length); });
 
 // STEP 12: Animate
 // Make "#step-12" double size with animation
 // Hint: you can use .animate, .width, and .height
-
+$( "#step-12" ).animate( {
+  width: "100%",
+  height: "100%",
+  fontSize: "40px",
+}, 1000 );
 
 // STEP 13: All But One
 // Remove all children of "#step-13" other than any h4 tags
