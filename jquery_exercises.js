@@ -28,22 +28,22 @@ $('#step-4b').css('background-color', 'green');
 // STEP 5: Disable Buttons
 // Disable the button
 // Hint: you will have to select the button and can use .attr
-$('button').attr('disabled', 'disabled');
+$('button').attr('disabled', true);
 
 // STEP 6: Uncheck CheckBoxes
 // Uncheck all checkboxes using jQuery
 // Hint: you will have to select the input and can use .removeAttr
-
+$('input').removeAttr('checked');
 
 // STEP 7: Change Parent
 // Move "#child-7" from "#step-7a" to "#step-7b"
 // Hint: you can use .appendTo
-
+$('#child-7').appendTo('#step-7b');
 
 // STEP 8: Change Size
 // Double the size of "#step-8"
 // Hint: you can use .css, .width and .height
-
+$('#step-8').css('width', '200px').css('height', '200px');
 
 // STEP 9: Empty Elements
 // Remove all children and text of "#step-9"
