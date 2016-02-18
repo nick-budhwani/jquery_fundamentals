@@ -23,12 +23,12 @@ $('#step-3 .child').clone().insertAfter('#step-3 .child');
 // STEP 4: Use Filter
 // Change background color of the second ".target"
 // Hint: you can use .eq and .css
-
+$('#step-4b').css('background-color', 'green');
 
 // STEP 5: Disable Buttons
 // Disable the button
 // Hint: you will have to select the button and can use .attr
-
+$('button').attr('disabled', 'disabled');
 
 // STEP 6: Uncheck CheckBoxes
 // Uncheck all checkboxes using jQuery
